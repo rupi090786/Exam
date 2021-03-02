@@ -38,7 +38,7 @@ stage ('Docker deployment Image'){
 
 stage ('Docker push image to repo'){
     steps{
-        bat '/bin/docker push -t https://hub.docker.com/repository/docker/rupi090786/examnagp2:${Build_NUMBER}''
+        bat '/bin/docker push -t https://hub.docker.com/repository/docker/rupi090786/examnagp2:${Build_NUMBER}'
     }
 }
 
